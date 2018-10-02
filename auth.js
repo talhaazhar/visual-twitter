@@ -1,9 +1,9 @@
-var config = {
+var auth = {
 	data:{
 		consumer_key: "YOUR-CONSUMER-KEY",
 		consumer_secret: 'YOUR CONSUMER SECRET',
-		token: 'YOUR TOKEN',
-		token_secret: 'YOUR TOKEN SECRET'
+		access_token: 'YOUR TOKEN',
+		access_token_secret: 'YOUR TOKEN SECRET'
 	}
 }
-module.exports = config;
+module.exports = auth;
